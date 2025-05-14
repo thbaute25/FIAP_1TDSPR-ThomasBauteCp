@@ -1,0 +1,20 @@
+# Ignora arquivos do sistema Windows
+AppData/
+*.log
+*.tmp
+.DS_Store
+
+# Ignora arquivos temporários de Python
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Ignora arquivos de cache do VSCode
+.vscode/
+
+# Ignora arquivos do Colab ou do Jupyter
+.ipynb_checkpoints/
+
+# Ignora pastas de dependências (se tiver)
+.env/
+.venv/
